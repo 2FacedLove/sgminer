@@ -1,7 +1,7 @@
 
 ACLOCAL_AMFLAGS = -I m4
 
-JANSSON_CPPFLAGS= -I$(top_builddir)/compat/jansson-2.5/src -I$(top_srcdir)/compat/jansson-2.5/src
+JANSSON_CPPFLAGS= -I$(top_builddir)/compat/jansson/src -I$(top_srcdir)/compat/jansson/src
 
 EXTRA_DIST	= example.conf m4/gnulib-cache.m4 \
 		  ADL_SDK/readme.txt api-example.php miner.php	\
