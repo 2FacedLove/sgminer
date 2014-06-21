@@ -1,3 +1,2 @@
 
-SUBDIRS	= jansson-2.5
-
+SUBDIRS	= jansson
