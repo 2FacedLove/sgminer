@@ -1393,6 +1393,7 @@ __kernel void search14(__global hash_t* hashes, __global uint* output, const ulo
   n6 ^= h6;
   n7 ^= h7;
 
+#pragma unroll 10
   for (unsigned r = 0; r < 10; r ++) 
   {
     sph_u64 tmp0, tmp1, tmp2, tmp3, tmp4, tmp5, tmp6, tmp7;
@@ -1434,6 +1435,7 @@ __kernel void search14(__global hash_t* hashes, __global uint* output, const ulo
   n6 ^= h6;
   n7 ^= h7;
 
+#pragma unroll 10
   for (unsigned r = 0; r < 10; r ++) 
   {
     sph_u64 tmp0, tmp1, tmp2, tmp3, tmp4, tmp5, tmp6, tmp7;
