@@ -77,9 +77,8 @@ typedef int sph_s32;
 #define SPH_GROESTL_BIG_ENDIAN 0
 #define SPH_CUBEHASH_UNROLL 0
 #define SPH_KECCAK_UNROLL   1
-#if !defined SPH_HAMSI_EXPAND_BIG
-  #define SPH_HAMSI_EXPAND_BIG 1
-#endif
+#define SPH_HAMSI_EXPAND_BIG 1
+#define SPH_HAMSI_SHORT 1
 
 #include "blake.cl"
 #include "bmw.cl"
