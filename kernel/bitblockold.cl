@@ -76,6 +76,7 @@ typedef long sph_s64;
 #define SPH_CUBEHASH_UNROLL 0
 #define SPH_KECCAK_UNROLL   1
 #define SPH_HAMSI_EXPAND_BIG 4
+#define SPH_HAMSI_SHORT 0
 
 #include "blake.cl"
 #include "bmw.cl"
