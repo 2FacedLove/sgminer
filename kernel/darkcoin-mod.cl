@@ -74,7 +74,7 @@ typedef long sph_s64;
 #define SPH_SIMD_NOCOPY 0
 #define SPH_KECCAK_NOCOPY 0
 #define SPH_COMPACT_BLAKE_64 0
-#define SPH_LUFFA_PARALLEL 1
+#define SPH_LUFFA_PARALLEL 0
 
 #define SPH_SMALL_FOOTPRINT_GROESTL 0
 
